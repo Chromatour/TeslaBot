@@ -59,7 +59,8 @@ Invite the bot to the room in the configuration.
 Set environment variables: 
   - ENVIRONMENT: if running on google cloud, use gcp
   - CHANNEL: slack channel
-  - CONTROL: slack / matrix
+  - SLACK_ADMIN_CHANNEL_ID: Channel's id that's used for authentication
+  - CONTROL: slack
   - EMAIL: tesla login email
   - STORAGE: type of storage (local / firestore)
   - GCP_PROJECT_ID: speaks for itself
